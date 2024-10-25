@@ -64,6 +64,7 @@
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Blacksmith provides your armies with Supply Carts.",
 					"id" : 16,
+					"warMachine" : "mdtSupplyCart",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
@@ -297,6 +298,7 @@
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"id" : 14,
+					"marketModes" : ["resource-resource", "resource-player"],
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
@@ -321,7 +323,7 @@
 					"description": "The Replicator sells artifacts to visiting heroes.",
 					"id": 17,
 					"name": "Replicator",
-					"type": "artifactMerchant",
+					"marketModes" : ["resource-artifact", "artifact-resource"],
 					"requires": [
 						"blacksmith"
 					]
@@ -331,7 +333,7 @@
 						"gold": 8000,
 						"mercury": 10
 					},
-					"description": "Allows travel Forge towns containang Hero Teleporter. Destination town must be unoccupied..",
+					"description": "Allows travel Forge towns containang Hero Teleporter. Destination town must be unoccupied.",
 					"id": 22,
 					"name": "Hero Teleporter",
 					"type": "castleGate",
@@ -499,7 +501,7 @@
 					"village" : { "animation" : "forge/map/village.def" }
 				}
 			},
-			"musicTheme" : "music/factions/theme",
+			"musicTheme" : [ "music/factions/theme" ],
 			"names" : [
 				"Alphaville",
 				"Gothamtown",
@@ -887,8 +889,7 @@
 				}
 			},
 			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "forge/town/background",
-			"warMachine" : "mdtSupplyCart"
+			"townBackground" : "forge/town/background"
 		}
 	}
 }
