@@ -9,6 +9,10 @@
 	{
 		"min" : "1.2"
 	},
+	"czech" : {
+		"name" : "Méně náhodný zacátek",
+		"description" : "Hrdinové s počáteční armádou mají vždy všechny jednotky i válečný stroj, bez možnosti, že by některá z nich chyběla. Města s pevností mají automaticky postavené obydlí pro jednotky 2. úrovně."
+	},
 	"settings":
 	{
 		"heroes":
