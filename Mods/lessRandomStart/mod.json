@@ -10,8 +10,8 @@
 		"min" : "1.2"
 	},
 	"czech" : {
-		"name" : "Méne náhodnı zacátek",
-		"description" : "Hrdinové s pocátecní armádou vdy mají všechny jednotky i válecnı stroj, bez monosti, e by nekterá z nich chybela. Mesta s pevností mají automaticky postavené obydlí pro jednotky 2. úrovne."
+		"name" : "MÃ©nÄ› nÃ¡hodnÃ½ zacÃ¡tek",
+		"description" : "HrdinovÃ© s poÄÃ¡teÄnÃ­ armÃ¡dou majÃ­ vÅ¾dy vÅ¡echny jednotky i vÃ¡leÄnÃ½ stroj, bez moÅ¾nosti, Å¾e by nÄ›kterÃ¡ z nich chybÄ›la. MÄ›sta s pevnostÃ­ majÃ­ automaticky postavenÃ© obydlÃ­ pro jednotky 2. ÃºrovnÄ›."
 	},
 	"settings":
 	{
